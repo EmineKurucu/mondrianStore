@@ -2,7 +2,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import InitialPage from "./initialPage";
 import Mondrian from "./mondrian";
 import {Provider} from "react-redux";
-import store from "./stores/store"; // 
+import store from "./stores/store"; 
 
 function App() {
   return (

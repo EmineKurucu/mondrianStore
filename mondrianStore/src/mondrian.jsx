@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { setBox } from "./slices/boxSlice";
-import Box, { Height40Beige, Width40Beige } from "./component/Box"; // Box komponentlerini import edin
+import Box, { Height40Beige, Width40Beige } from "./component/Box"; 
 
 const boxData = [
     {width:"225px", height:"225px", top:"50px", left:"55px", backgroundColor:"red", position:"absolute"},
